@@ -4,6 +4,8 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 1080px;
+    height: 1920px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,10 +14,7 @@ body {
     vertical-align: baseline;
     line-height: 1;
   }
-header, nav, section, footer {
-    padding: 20px;
-    text-align: center;
-  }
+
 .nav-bar {
     background-color: #354759;
     color: white;
@@ -39,6 +38,8 @@ header, nav, section, footer {
     padding: 8px;
 }
 h1 {
+    font-size: bold;
+    text-align: center;
     overflow: hidden;
     font-size: 30px;
     border: hidden;
@@ -49,7 +50,14 @@ h1 {
     padding: 40px 20px;
     display: block;
   }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold 20px;
+    text-align: center;
+  }
   span {
+    font-size: bold;
+    text-align: center;
     overflow: hidden;
     font-size: 20px;
     border: hidden;
@@ -97,12 +105,12 @@ h1 {
 }
 
 footer {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     color: white;
-    text-align: center;
     background-color: #222F3F;
     padding: 10px;
-    text-align: center;
+    font-size: bold 20px;
 
 }
