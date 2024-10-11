@@ -1,0 +1,108 @@
+
+.logo {
+    background-color:#222F3F;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+  }
+header, nav, section, footer {
+    padding: 20px;
+    text-align: center;
+  }
+.nav-bar {
+    background-color: #354759;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.nav-bar a {
+    text-align: left;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+.button {
+    
+    text-align: center;
+    border: solid none;
+    background-color: orangered;
+    margin: 10px;
+    color: aliceblue;
+    padding: 8px;
+}
+h1 {
+    overflow: hidden;
+    font-size: 30px;
+    border: hidden;
+    width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/bg-image.png) no-repeat center/cover;
+    color: white;
+    padding: 40px 20px;
+    display: block;
+  }
+  span {
+    overflow: hidden;
+    font-size: 20px;
+    border: hidden;
+    width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/bg-image.png) no-repeat center/cover;
+    color: white;
+    padding: 40px 20px;
+    display: block;
+  }
+  h6 {
+    text-align: center;
+    border: solid none;
+    background-color: #354759;
+    color: aliceblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+  }
+.container {
+    width: 520px;
+    height: 520px;
+    display: inline;
+    border-radius: 40px;
+    display: flex; 
+    gap: 10px;
+    padding: 10px
+
+}
+.section-title {
+    text-align: centre;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .section-title2 {
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    background-color: #222F3F;
+    padding: 10px;
+    text-align: center;
+
+}
